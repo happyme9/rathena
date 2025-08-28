@@ -1,0 +1,298 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2023 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Enchantgrade Database - Pre-Renewal
+###########################################################################
+#
+# Enchantgrade Settings for Pre-Renewal Mode
+#
+###########################################################################
+
+Header:
+  Type: ENCHANTGRADE_DB
+  Version: 3
+
+Body:
+  - Type: Armor
+    Levels:
+      - Level: 1
+        Grades:
+          - Grade: None
+            Chances:
+              - Refine: 7
+                Chance: 1000
+              - Refine: 8
+                Chance: 2000
+              - Refine: 9
+                Chance: 7000
+              - Refine: 10
+                Chance: 7000
+            Bonus: 10
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 1
+                Zeny: 175000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 10
+                Zeny: 875000
+          - Grade: D
+            Chances:
+              - Refine: 7
+                Chance: 500
+              - Refine: 8
+                Chance: 1000
+              - Refine: 9
+                Chance: 3500
+              - Refine: 10
+                Chance: 3500
+            Bonus: 20
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 2
+                Zeny: 350000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 20
+                Zeny: 1750000
+          - Grade: C
+            Chances:
+              - Refine: 7
+                Chance: 250
+              - Refine: 8
+                Chance: 500
+              - Refine: 9
+                Chance: 1750
+              - Refine: 10
+                Chance: 1750
+            Bonus: 30
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 3
+                Zeny: 525000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 30
+                Zeny: 2625000
+          - Grade: B
+            Chances:
+              - Refine: 7
+                Chance: 125
+              - Refine: 8
+                Chance: 250
+              - Refine: 9
+                Chance: 875
+              - Refine: 10
+                Chance: 875
+            Bonus: 40
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 4
+                Zeny: 700000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 40
+                Zeny: 3500000
+          - Grade: A
+            Chances:
+              - Refine: 7
+                Chance: 62
+              - Refine: 8
+                Chance: 125
+              - Refine: 9
+                Chance: 437
+              - Refine: 10
+                Chance: 437
+            Bonus: 50
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 5
+                Zeny: 875000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 50
+                Zeny: 4375000
+  - Type: Weapon
+    Levels:
+      - Level: 4
+        Grades:
+          - Grade: None
+            Chances:
+              - Refine: 7
+                Chance: 1000
+              - Refine: 8
+                Chance: 2000
+              - Refine: 9
+                Chance: 7000
+              - Refine: 10
+                Chance: 7000
+            Bonus: 15
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 1
+                Zeny: 175000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 10
+                Zeny: 875000
+          - Grade: D
+            Chances:
+              - Refine: 7
+                Chance: 500
+              - Refine: 8
+                Chance: 1000
+              - Refine: 9
+                Chance: 3500
+              - Refine: 10
+                Chance: 3500
+            Bonus: 30
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 2
+                Zeny: 350000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 20
+                Zeny: 1750000
+          - Grade: C
+            Chances:
+              - Refine: 7
+                Chance: 250
+              - Refine: 8
+                Chance: 500
+              - Refine: 9
+                Chance: 1750
+              - Refine: 10
+                Chance: 1750
+            Bonus: 45
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 3
+                Zeny: 525000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 30
+                Zeny: 2625000
+          - Grade: B
+            Chances:
+              - Refine: 7
+                Chance: 125
+              - Refine: 8
+                Chance: 250
+              - Refine: 9
+                Chance: 875
+              - Refine: 10
+                Chance: 875
+            Bonus: 60
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 4
+                Zeny: 700000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 40
+                Zeny: 3500000
+          - Grade: A
+            Chances:
+              - Refine: 7
+                Chance: 62
+              - Refine: 8
+                Chance: 125
+              - Refine: 9
+                Chance: 437
+              - Refine: 10
+                Chance: 437
+            Bonus: 75
+            Catalyst:
+                Item: Blessed_Etel_Dust
+                AmountPerStep: 1
+                MaximumSteps: 10
+                ChanceIncrease: 100
+            Options:
+              - Option: 0
+                Item: Etel_Skyblue_Jewel
+                Amount: 5
+                Zeny: 875000
+                BreakingRate: 10000
+              - Option: 1
+                Item: Etel_Amber
+                Amount: 50
+                Zeny: 4375000
