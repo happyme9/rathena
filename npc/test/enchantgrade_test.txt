@@ -1,0 +1,36 @@
+//===== Test Script ========================================
+//= Enchant Grade Pre-RE Test
+//===== Description =========================================
+//= Test script to verify Enchant Grade NPCs work in Pre-RE
+//============================================================
+
+// Test that the enchantgrade NPCs exist and can be accessed
+-	script	enchantgrade_test	FAKE_NPC,{
+OnInit:
+	// Test if the enchantgrade NPCs are accessible
+	.@npc1 = getnpcid(0, "Sratos#sratos");
+	.@npc2 = getnpcid(0, "Suribell#suribell");
+	
+	if (.@npc1 == 0) {
+		debugmes "ERROR: Sratos#sratos NPC not found";
+	} else {
+		debugmes "SUCCESS: Sratos#sratos NPC found (ID: " + .@npc1 + ")";
+	}
+	
+	if (.@npc2 == 0) {
+		debugmes "ERROR: Suribell#suribell NPC not found";  
+	} else {
+		debugmes "SUCCESS: Suribell#suribell NPC found (ID: " + .@npc2 + ")";
+	}
+	
+	// Test if barter shop exists
+	.@shop = getnpcid(0, "EnchantGradeExchange");
+	if (.@shop == 0) {
+		debugmes "INFO: EnchantGradeExchange shop not loaded as NPC (this is normal for barter shops)";
+	} else {
+		debugmes "SUCCESS: EnchantGradeExchange shop found (ID: " + .@shop + ")";
+	}
+	
+	debugmes "Enchant Grade Pre-RE test completed";
+	end;
+}
